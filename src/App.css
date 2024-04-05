@@ -1,0 +1,155 @@
+#neubar {
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.4)
+}
+
+
+
+#neubar .nav-item {
+  margin : auto 4px;
+}
+#neubar a {
+
+  padding-left:12px;
+  padding-right:12px;
+}
+#neubar .dropdown-menu {
+  background : #ffffff
+}
+a.navbar-brand {
+  color: #454545
+}
+
+.Link {
+  color: black;
+  text-decoration: none;
+}
+
+
+.form-container {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  
+}
+
+.Content{
+  align-items: center;
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-container {
+  text-align: center;
+}
+
+/* Style the search input field */
+input  {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+/* Style the search button */
+button ,#addUserButton{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+ 
+.text-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #080808;
+  background-color: white;
+}
+.Content{
+  padding: 20px 10%;
+}
+.Content h2{
+  text-align: center;
+}
+
+.search-and-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+.content {
+  height: 50vh; 
+  padding: 20px;
+  text-align: center; 
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-size: 0.8rem;
+  background-color: #f0f0f0;
+  color: #555;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-cta {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.button:hover,
+.white-btn:hover {
+  opacity: 0.8;
+}
